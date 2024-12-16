@@ -1,0 +1,34 @@
+
+
+
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "top", 
+"position": "bottom", 
+"mode": "dock",
+"exclusive": true,
+"width": 850,
+"passthrough": false,
+"gtk-layer-shell": true,
+"margin-right": 100,
+"margin-bottom": 10,
+"margin": 5,
+
+"modules-left": [ 
+
+	],
+    
+"modules-center": [
+"battery",
+"custom/exit",
+"custom/h",
+"clock#2",
+
+	],
+   
+
+"modules-right": [
+
+	],
+}
