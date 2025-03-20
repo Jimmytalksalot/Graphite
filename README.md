@@ -23,13 +23,19 @@
 **OTHER RICES**
 
 https://github.com/Jimmytalksalot/dotfiles-everest (i3)
+
 https://github.com/Jimmytalksalot/dotfiles-generic (i3)
+
 https://github.com/Jimmytalksalot/dotfile-blue-marron (Hyprland, Graphite based)
 
 **SOCIALS**
+
 https://www.youtube.com/@Fizcakesprite
+
 https://www.reddit.com/user/undyfan/
+
 https://x.com/officegamermc
+
 
 
 
