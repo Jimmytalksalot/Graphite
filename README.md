@@ -1,6 +1,7 @@
 # Dotfiles
 
-![20241215_19h39m28s_grim](https://github.com/user-attachments/assets/578d8073-a739-4f75-98d3-f735e47b10ee)
+![20250403_22h38m06s_grim](https://github.com/user-attachments/assets/458712e5-29f5-4f75-b31f-87eee012a753)
+
 
 
 
