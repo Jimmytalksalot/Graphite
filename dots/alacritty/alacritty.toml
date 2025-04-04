@@ -1,0 +1,13 @@
+[window ]
+padding = {x = 50, y = 50}
+
+
+[font]
+
+normal = {family = "Tiny5"}
+size = 9
+
+[colors]
+
+[colors.primary]
+background = "#080808"

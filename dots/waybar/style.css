@@ -1,0 +1,158 @@
+
+
+
+
+@define-color arch #1793D1;
+@define-color trans #000000;
+@define-color background  #363636;
+@define-color foreground #4f5653;
+@define-color bg #161a1d;
+* {
+	font-family: "Tiny5";
+	font-weight: bold;
+	min-height: 0;	
+
+	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
+	font-size: 7.5px;
+	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+
+}
+
+
+
+#custom-star {
+  background: @bg;
+  color: @foreground;
+  margin-right: 6px;
+  padding: 14px;
+}
+
+
+#waybar {
+  background: transparent;
+  color: @foreground;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  
+}
+
+
+#custom-exit {
+  background-color: @bg;
+  color: @foreground;
+  padding: 14px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+#memory {
+  color: transparent;
+  background: transparent;
+  padding: 14px;
+  border-radius: 0px;
+  margin-left: 6px;
+}
+
+#battery {
+  color: @foreground;
+  background: @bg;
+  padding: 14px;
+}
+
+ #custom-clean {
+   color: @foreground;
+   background: @bg;
+   padding: 14px;
+   
+ }
+
+#custom-h {
+  color: @foreground;
+  background: @bg;
+  padding: 14px;
+  margin-left: 0px;
+}
+
+#custom-archlogo {
+  color: @foreground;
+  background: @bg;
+  padding-left: 14px; 
+  padding-right: 14px;
+}
+
+#custom-hostname {
+  color: @foreground;
+  background: @bg;
+  padding: 14px; 
+  margin-left: 6px;
+}
+
+#custom-uptime {
+  color: @foreground;
+  background: @bg;
+  padding-left: 0px;
+  padding-right: 14px;
+  margin-right: 10px;
+}
+
+#custom-currency {
+  color: @foreground;
+  background: @bg;
+  margin-right: 6px;
+  padding: 14px;
+}
+
+#custom-omega {
+  color: @foreground;
+  background:@bg;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+#custom-kernel {
+  color: @foreground;
+  background: @bg; 
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+#custom-clearnix {
+  background: @bg;
+  color: @foreground;
+  margin-right: 0;
+  padding-left: 14px;
+  padding-right: 0px
+}
+
+#custom-phi {
+  color: @foreground;
+  background: @bg;
+  padding-right: 14px;
+  padding-left: 9px;
+  margin-right: 6px;
+  margin-left: 0px;
+}
+
+#custom-arch {
+  color: @foreground;
+  background: @bg;
+}
+
+#custom-greektime {
+  color: @foreground;
+  background: @bg;
+  padding: 14px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#custom-greekmem {
+  background: @bg;
+  color: @foreground;
+  padding: 14px;
+}

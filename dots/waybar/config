@@ -1,0 +1,88 @@
+
+
+
+
+{
+"layer": "top", 
+"position": "top", 
+"mode": "dock",
+"fixed-center": true,
+"exclusive": true,
+"width": 00,
+"height": 60,
+"passthrough": false,
+"gtk-layer-shell": true,
+"margin-right": 1700,
+"margin-top": 320,
+"margin": 5,
+
+"custom/clearnix": {
+    "format": "σαφής",
+    "on-click": "nix-env --delete-generations old;nix-collect-garbage -d",
+    "tooltip-format": "Clean up Nix garbage.",
+  },
+
+  
+"custom/greekmem": {
+    "format": "",
+    "exec": "free -Lh",
+    "tooltip-format": "{}",
+    "interval": 1,
+  },
+
+  
+"custom/exit": {
+  "format": "",
+    "on-click": "pkill Hyprland",
+    "tooltip-format": "Go back to ly-dm"
+  },
+
+
+
+
+
+
+"custom/greektime": {
+    "format": "",
+    "exec": "date",
+    "tooltip-format": "Today is {}",
+    "interval": 1,
+  },
+
+
+"custom/h": {
+	"format": "",
+	"on-click": "pkill rofi||rofi -show drun",
+  "on-click-right": "pkill rofi||rofi -show window",
+	"tooltip": true,
+	"tooltip-format": "Search for applications",
+  "exec": "echo hello"
+},
+
+
+
+
+"modules-right": [
+"custom/greekmem",
+"custom/greektime",
+"custom/h",
+"custom/exit",
+
+
+	],
+    
+"modules-center": [
+
+
+	],
+   
+
+"modules-left": [
+"memory",
+
+
+	],
+
+}
+
+
