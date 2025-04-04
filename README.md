@@ -16,6 +16,9 @@
 * Pipewire (what I use for audio)
   You may have to change the configuration for cava if you don't use pipewire.
 
+**NOTE**
+This is the main repository with my original rice. Make sure to check out the dots branch for the latest dotfiles.
+
 
 **Install** 
 * Place all of the configuration folders into .config. If you already have folders of the same name, create a backup of them or delete them and replace those with these configuration files.
